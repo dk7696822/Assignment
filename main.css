@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+}
+/*create two columns*/
+.about-divide {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+.about-left {
+  background-image: url(istockphoto-1186475376-612x612.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  background-size: cover;
+}
+.about-left-content {
+  background: rgba(0, 0, 0, 0.103);
+  padding: 4em 4em 2.5em 5em;
+  text-align: center;
+
+  border-radius: 7%;
+}
+
+.about-img img {
+  display: block;
+  width: 200px;
+}
+.about-img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.shadow {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.about-left-content h2 {
+  font-size: 2rem;
+  margin: 2.2rem 0 0.6rem 0;
+  line-height: 1.2;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #b721ff;
+}
+.about-left-content h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin-top: 1.2rem;
+}
+
+.about-right {
+  background-image: url(istockphoto-1186475376-612x612.jpg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5em;
+  text-align: center;
+  background-size: cover;
+}
+.about-right h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  color: yellow;
+}
+.about-right h1 span {
+  color: #9a19d6;
+}
+.about-right h2 {
+  font-weight: 600;
+  color: white;
+}
+.about-btns {
+  display: flex;
+  margin: 2em 0;
+}
+.btn {
+  border: black;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.55em 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5em;
+  cursor: pointer;
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+.btn.btn-CV {
+  background: pink;
+  color: #fff;
+}
+.btn.btn-CV:hover {
+  background: white;
+  border-color: #fff;
+  color: #fff;
+}
+.btn.btn-github {
+  background: pink;
+}
+.btn.btn-github:hover {
+  background: white;
+  border-color: white;
+  color: #fff;
+}
+.about-para p {
+  font-weight: 500;
+  padding: 0.5em;
+  opacity: 0.8;
+  color: white;
+}
+
+.about-left {
+  position: relative;
+}
+.about-left-content {
+  position: absolute;
+  width: 80%;
+}
